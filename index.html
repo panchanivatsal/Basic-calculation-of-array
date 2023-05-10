@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>funcation</title>
+</head>
+
+<body     style="color: white;font-family: Arial, Helvetica, sans-serif; font-size: 24px; font-weight: 500; background-color: black;">
+    
+    <!-- reverse        Q1-->
+    <script type="text/javascript">
+        var a =["php","angular js","android","ruby","python"];
+        var ans = a.reverse();
+        document.write(":- reverse funcation  ");
+        document.write("  1. "+ans + "<br><br>");
+    </script>
+
+    <!-- sort array method         Q2 -->
+    <script type="text/javascript">
+
+        var arr = ["php", "angular js", "android", "ruby", "python"];
+
+        var result = arr.sort();
+        document.write(":- sort array method  ");
+        document.write("2. " +"Ans = " + result + "<br><br>");
+
+    </script>
+
+    <!-- remove last element  POP      Q3-->
+    <script type="text/javascript">
+        var arr = ["AngulaJS", "Node.js", "JQuery"];
+        var ans = arr.pop();
+        document.write(":- remove last element  POP  ");
+        document.write("3. "+"Ans = " + arr + "<br><br>");
+
+    </script>
+
+    <!-- add first element          Q4    -->
+    <script type="text/javascript">
+        var arr = ["AngulaJS", "Node.js", "JQuery"];
+        var ans = arr.pop();
+        document.write(":- add first element  ");
+        document.write("4. "+"Ans = " + arr + "<br><br>");
+
+    </script>
+    <!--  string convert upper to lowercase.        Q5-->
+    <script type="text/javascript">
+
+        var upper = "HELLO WORLD";
+        var lower = upper.toLowerCase();
+        var lower2 = "vatsal panchani"
+        var upper2 = lower2.toUpperCase();
+        document.write(":- string convert upper to lowercase.  ");
+        document.write("5. "+lower + "<br>");
+        document.write(":- string convert lowercase to upper.  ");
+        document.write( "5. " +upper2 + "<br><br>");
+    </script>
+
+    <!-- convert string to array.  Q6 -->
+    <script type="text/javascript">
+        var a ="vatsal Panchani";
+        var array= Array.from(a);
+        document.write(":- convert string to array  ");
+        document.write("6. "+array + "<br><br>");
+    </script>
+
+    <!-- all array element sum(using array map method) -->
+    <script type="text/javascript">
+
+        var a = [10, 20, 30, 40, 50];
+        var sum = 0;
+        var ans = a.map(array);
+        function array(value, index, array) {
+            return sum +=value;
+
+        }
+        document.write(":- all array element sum(using array map method)  ");
+        document.write("7. "+sum+"<br><br>");
+    </script>
+    <!-- find all negative elements  Q8 -->
+    <script type="text/javascript">
+        var no = [-1, -2, 5, -6, 20];
+        var ans =no.filter(condetion);
+        function condetion(value, index, array){
+            return  value < 0;
+        }
+        document.write(":- find all negative elements   ");
+        document.write("8. "+ans+"<br><br>")
+    </script>
+    <!-- convert array to string        Q9 -->
+    <script type="text/javascript">
+        var a=["Om", "Vatsal","Mical","Gime"];
+        document.write(":- convert array to string   ");
+        document.write("9. "+a.toString()+"<br><br>");
+    </script>
+</body>
+
+</html>
